@@ -1,28 +1,15 @@
-﻿using System;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Conventions;
-using Microsoft.EntityFrameworkCore.Storage.Internal;
-using static EfCore.ApplicationDbContext;
+﻿using EfCore.Services;
+using EfCore.UI;
+using System;
 
-namespace EfCore
+class Program
 {
-     class Program
+    
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-
-            
-        
-
-        }
+        BookingSystem.Run();
     }
+
+
 }
-
-
-
-
-
-
-
-
